@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista</title>
+  </head>
+  <body>
+    <table border="1">
+      <caption>
+        <p>Lista de Usuários</p>
+      </caption>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Data de Nasc.</th>
+          <th>Ações</th> 
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Vinicius</td>
+          <td>vinicius3@exemple.com</td>
+          <td>79 98172-8322</td>
+          <td>20/02/2002</td>
+          <td>
+          <button class="edit-btn" onclick="editarUsuario('Vinicius')">Editar</button>
+          <button class="delete-btn" onclick="deletarUsuario('Vinicius')">Deletar</button>
+        </td>
+        </tr>
+        <tr>
+          <td>Natalia</td>
+          <td>nat@exemple.com</td>
+          <td>79 99981-7181</td>
+          <td>12/04/2001</td>
+          <td>
+          <button  class="edit-btn" onclick="editarUsuario('Natalia')">Editar</button>
+          <button class="delete-btn" onclick="deletarUsuario('Natalia')">Deletar</button>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
